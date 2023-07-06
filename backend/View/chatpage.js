@@ -89,13 +89,10 @@ window.addEventListener("DOMContentLoaded", async () => {
     console.log(userchat.data);
     addMessageOnScreen(userchat);
   } catch (error) {
-    // if(error.response.status===401){
-    //   unauthorizedUser(error);
-    // }
     console.log(error);
   }
 });
-
+//Task-9(set Interval)
 // try {
 //   setInterval(async() => {
 //        const token=localStorage.getItem('token');
