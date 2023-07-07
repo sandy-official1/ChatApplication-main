@@ -308,7 +308,7 @@ function parseJwt(token) {
   console.log("userid" + userid);
   //  document.getElementById('username').innerText=userdetail.username;
 })();
-
+//task-12
 async function groupPermission(groupid, groupname) {
   try {
     const token = localStorage.getItem("token");
